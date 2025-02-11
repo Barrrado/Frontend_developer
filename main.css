@@ -121,9 +121,11 @@ p{
     }
     .sec1{
         padding-bottom: 30px;
+        margin:0 !important;
     }
     .cont{
         background-image: url(./images/bg-hero-mobile.svg);
+        margin-bottom: 47px;
     }
     p, h1, h2{
         text-align: center !important;
@@ -134,7 +136,7 @@ p{
        align-self: center;
     }
     .btnplay{
-        width: 30%;
+        width: 44%;
     }
     .logo-3{
         width: 40%;
