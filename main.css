@@ -1,0 +1,183 @@
+*{
+    max-width: 1200px;
+    margin: auto;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root{
+    --primary-color:hsl(322, 100%, 66%);
+    --secundary-color:hsl(193, 100%, 96%);
+    --color-back:hsl(0, 0%, 100%);
+    --font-color: hsl(192, 100%, 9%);
+    --paragrafo-color:hsl(208, 11%, 55%);
+}
+.bi{
+    color: var(--secundary-color);
+    padding: 5px;
+
+}
+body{
+    background-color: var(--color-back);
+}
+button{
+    background-color: var(--primary-color) ;
+    color:var(--secundary-color);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.116);
+    width: 228px;
+    height: 54px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600 !important;
+}
+.btnplay{
+    background-color: var(--secundary-color);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+    border: none;
+    font-family: "Poppins", serif;
+    font-weight: 700 !important;
+    color: black;
+}
+.btn-2{
+    width: 300px;
+    height: 54px;
+    margin-top: 20px;
+}
+
+.cont{
+    background-image: url(./images/bg-hero-desktop.svg);
+}
+.sec1{
+    border-radius: 20px;
+    background-color: var(--secundary-color);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo-3{
+    margin-left: 0;
+}
+.Grow{
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.img-1{
+    width: 100%;
+    overflow: hidden;
+}
+.Your{
+    margin-left: 0;
+    padding-right: 20px;
+}
+h1, h2{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--font-color) !important;
+  }
+
+p{
+    font-family: "Open Sans", sans-serif;
+    color: var(--paragrafo-color) !important;
+}
+.texto-1{
+    padding-left: 90px !important;
+    padding-right: 60px !important;
+}
+.sec2{
+    border-radius: 20px;
+    background-color: var(--secundary-color);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 27%);
+    z-index: 1;
+    padding: 60px;
+}
+.rodape{
+    background-color: var(--font-color);
+    height: auto;
+    padding-top:150px ;
+}
+.logorodape {
+    filter:grayscale(100)  saturate(0) brightness(100);
+    padding-bottom: 30px !important;
+}
+
+
+
+.text-rodape{
+    color: var(--color-back) !important;
+}
+@media only screen and (max-width: 576px) {
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .sec1{
+        padding-bottom: 30px;
+    }
+    .cont{
+        background-image: url(./images/bg-hero-mobile.svg);
+    }
+    p, h1, h2{
+        text-align: center !important;
+        margin: 0 !important;
+        padding-bottom:10px ;
+    }
+    button{
+       align-self: center;
+    }
+    .btnplay{
+        width: 30%;
+    }
+    .logo-3{
+        width: 40%;
+    }
+    .bi{
+        align-self: center;
+    }
+    .rod-1{
+        justify-items: flex-start;
+    }
+    .sec2{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .reverse{
+        flex-direction: column-reverse;
+    }
+    .sec1{
+        padding-bottom: 30px;
+    }
+    .sec2{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    p, h1, h2{
+        text-align: center !important;
+        margin: 0 !important;
+        padding-bottom:10px ;
+    }
+    button{
+       align-self: center;
+    }
+    .btn{
+        width: 50%;
+    }
+    .rod-1{
+        justify-items: flex-start;
+    }
+    .rodape{
+        padding-left: 20px;
+        padding-right: 100px;
+    }
+
+  }
