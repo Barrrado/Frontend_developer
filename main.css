@@ -121,7 +121,8 @@ p{
     }
     .sec1{
         padding-bottom: 30px;
-        margin:0 !important;
+        margin-right: 0px !important;
+        margin-left: 0px !important;
     }
     .cont{
         background-image: url(./images/bg-hero-mobile.svg);
@@ -150,6 +151,7 @@ p{
     .sec2{
         margin-left: 10px !important;
         margin-right: 10px !important;
+          width: 100%;
     }
   }
 
