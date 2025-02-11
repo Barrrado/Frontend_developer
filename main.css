@@ -53,6 +53,7 @@ button{
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
     margin-left: 20px;
     margin-right: 20px;
+    width:100%;
 }
 .logo-3{
     margin-left: 0;
