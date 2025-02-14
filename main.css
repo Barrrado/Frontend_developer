@@ -54,6 +54,9 @@ button{
     margin-left: 20px;
     margin-right: 20px;
     width:100%;
+    animation: slide-in-bottom 1s linear;
+    animation-timeline: view();
+    animation-range: 0%  60%;
 }
 .logo-3{
     margin-left: 0;
@@ -110,11 +113,22 @@ p{
     padding-bottom: 30px !important;
 }
 
+@keyframes slide-in-bottom {
+    0% {
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
 
 .text-rodape{
     color: var(--color-back) !important;
 }
+
 @media only screen and (max-width: 576px) {
     .reverse{
         flex-direction: column-reverse;
