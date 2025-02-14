@@ -6,8 +6,8 @@
 
 :root{
     --primary-color:hsl(322, 100%, 66%);
-    --secundary-color:hsl(193, 100%, 96%);
-    --color-back:hsl(0, 0%, 100%);
+    --secundary-color:hsl(0, 0%, 100%);
+    --color-back:hsl(193, 100%, 96%);
     --font-color: hsl(192, 100%, 9%);
     --paragrafo-color:hsl(208, 11%, 55%);
 }
